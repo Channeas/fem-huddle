@@ -13,6 +13,18 @@
             href="./images/favicon-32x32.png"
         />
 
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/8ed0002a41.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
         <title>
             Frontend Mentor | Huddle landing page with single introductory
             section
@@ -21,6 +33,44 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
+        <div id="container">
+            <div id="navbar">
+                <img src="images/logo.svg" id="logo" alt="Huddle logo" />
+            </div>
+            <div id="sectionContainer">
+                <div id="leftSection" class="section">
+                    <img
+                        src="images/illustration-mockups.svg"
+                        id="preview"
+                        alt="Huddle mockup preview"
+                    />
+                </div>
+                <div id="rightSection" class="section">
+                    <p id="title">
+                        Build The Community <br />
+                        Your Fans Will Love
+                    </p>
+                    <p id="description">
+                        Huddle re-imagines the way we build communities. You
+                        have a voice, but so does your audience. Create
+                        connections with your users as you engage in genuine
+                        discussion.
+                    </p>
+                    <button id="CTA">Register</button>
+                </div>
+            </div>
+            <div id="socialButtons">
+                <button class="socialButton">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button class="socialButton">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button class="socialButton">
+                    <i class="fab fa-instagram"></i>
+                </button>
+            </div>
+        </div>
         <!-- Frontend Mentor attribution-->
         <footer>
             <p class="attribution">
